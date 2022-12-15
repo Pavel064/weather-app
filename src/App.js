@@ -94,7 +94,7 @@ function App() {
         </div>
         <div
           className={`duration-300 delay-75 overflow-hidden
-         ${showWeather ? "h-[27rem]" : "h-0"}`}
+         ${showWeather ? "h-[30rem]" : "h-0"}`}
         >
           {loading ? (
             <div className="grid place-items-center h-full">
