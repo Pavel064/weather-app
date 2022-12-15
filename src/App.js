@@ -52,7 +52,7 @@ function App() {
       .then((data) => {
         // console.log(data);
         setApiData(null);
-        if (data.cod == 404 || data.cod == 400) {
+        if (data.cod === 404 || data.cod === 400) {
           setShowWeather([
             {
               type: "Not Found",
